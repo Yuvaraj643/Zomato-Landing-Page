@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  background-color: #ebf2ff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.navbar__brand {
+  width: 100px;
+}
+
+.navbar_logo {
+  width: 100%;
+}
+
+.button__primary {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.button__primary :hover {
+  background-position: right center;
+  border: 2px solid #ff67ff;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.hero__image__container {
+  width: 100%;
+}
+
+.hero__image {
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 25px 50px -12px rgb(0 0 0 /25%);
+}
+
+.hero__text {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #1d3557;
+}
+
+.food__card__description {
+  padding: 15px;
+}
+
+.food__card {
+  background-color: #f9f9f9;
+}
+
+.food__card__image__container {
+  width: 100%;
+}
+
+.food__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.explore__menu__text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #1d3557;
+  font-weight: 800;
+}
+
+.restaurants {
+  display: flex;
+  align-items: center;
+}
+.res {
+  width: 100px;
+  display: ;
+}
+
+.res__brand {
+  width: 100%;
+}
+
+.restaurant1__image {
+  width: 250px;
+  padding: 10px;
+}
+
+.res__text {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: bold;
+}
+
+.section__1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section__2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button__1 {
+  margin-left: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.button__1 :hover {
+  background-position: right center;
+  border: 2px solid #ff67ff;
+  cursor: pointer;
+}
+
+#text_1 {
+  border-color: #ee89a0 1px solid;
+  height: 30px;
+  width: 300px;
+  background-color: #ee89a0;
+  border-radius: 10px;
+    padding-left: 10px ;
+}
+
+.quote_container1 {
+  position: relative;
+  margin-top: 4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  border-radius: 13px;
+  background: url(https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80)
+    center center / cover no-repeat;
+  margin-bottom: 25px;
+}
+.quote_container {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border-radius: 13px;
+  background-color: #0a4065;
+  opacity: 49%;
+}
+.quote_1 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+.font_1 {
+  color: white;
+  font-family: "Merriweather", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  z-index: 3;
+}
+
+.footer_1 {
+  margin-left: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  color: #fff;
+  border: none;
+  padding: 12px 12px 0px 12px;
+  border-radius: 6px;
+  display: flex;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.fot_text{
+    font-size: 75px;
+    font-weight: 700;
+    margin:53px ;
+    margin-left: 60px;
+
+}
+
+.fot_text2{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-left: 60px;
+    font-size: 19px;
+    font-weight: 100;
+}
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .explore__menu__lists {
+    display: flex;
+    gap: 15px;
+    margin-top: 45px;
+    padding: 0 30px;
+  }
+
+  #pizza__card {
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  #icecream__card {
+    margin-top: -20px;
+    margin-bottom: 55px;
+  }
+
+  .explore__menu__container {
+    position: relative;
+  }
+
+  .explore__menu__gradient__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+    );
+    z-index: -3;
+    transform: skewY(-5deg);
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+  .hero__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 80%;
+  }
+  .explore__menu__lists {
+    gap: 25px;
+  }
+  .navbar__brand {
+    width: 150px;
+  }
+  .button__primary {
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  .hero__description {
+    width: 100%;
+  }
+
+  .hero__text {
+    font-size: 50px;
+  }
+
+  .explore__menu__text {
+    font-size: 48px;
+  }
+}
